@@ -1,0 +1,111 @@
+body *{
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  background: #000000;
+}
+
+.titulo{
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.titulo h1{
+  padding: 0.2em;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.portada img{
+  width: 98vw;
+}
+
+.desc-section{
+  background: #000000;
+  color: #FFFFFF;
+  padding: 3em;
+  }
+
+.parrafos{
+  text-align: left;
+  width: 30%;
+  font-weight: lighter;
+  font-size: 0.85em;
+  vertical-align: middle;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+.parrafos p{
+  margin-top: 1em;
+
+}
+
+.fotoaside{
+  width: 20%;
+  vertical-align: middle;
+  margin-left: 3em;
+}
+
+.parrafos, .fotoaside{
+  display: inline-block;
+}
+
+.cualidades{
+  background: #1e1a13;
+  color: #FFFFFF;
+}
+
+.cualidades{
+  padding: 1em;
+  vertical-align: middle;
+
+
+}
+
+.cualidades h1{
+  font-weight: normal;
+  padding-bottom: 0.7em;
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+.awesome{
+  display: inline-block;
+  padding: 3em;
+}
+
+.awesome h3{
+  margin-top: 0.8em;
+  font-weight: lighter;
+}
+
+.fotos{
+  padding: 3em;
+  display: flex;
+  margin-left: 16em;
+}
+
+.fotos img{
+  width: 25%;
+  padding: 0.5em;
+}
+
+.final{
+  background: #1e1a13;
+  color: #FFFFFF;
+  padding: 2em;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.final a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
